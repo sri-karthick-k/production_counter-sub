@@ -1,0 +1,6 @@
+nohup node broker.js > /dev/null 2>&1 &
+disown
+
+nohup node sub.js > /dev/null 2>&1 &
+disown
+
